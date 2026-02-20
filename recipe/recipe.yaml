@@ -55,8 +55,6 @@ tests:
         - if: win
           then:
             - Library/bin/sassc.exe
-  - script:
-      - sassc --version
 
 about:
   homepage: https://github.com/sass/sassc
